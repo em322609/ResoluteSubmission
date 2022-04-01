@@ -1,0 +1,166 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #262626;
+}
+
+/* Color of the navbar BEFORE scroll */
+.navbar-scroll {
+  background-color: #FFC017;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #262626;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+.navbar-brand {
+  font-size: unset;
+  height: 3.5rem;
+}
+
+.navBarSearch{
+  width: 350px !important;
+  margin: 10px;
+}
+
+.submissionNav{
+  display: inline;
+  width: 400px !important;
+}
+
+.navBarContainer{
+  width: 600px;
+}
+
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 240px;
+  }
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 58px 0 0; /* Height of navbar */
+  padding-top: 100px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 240px;
+  z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+.sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.container{
+  margin-left: 0;
+  max-width: 100%;
+  justify-content: left;
+}
+a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-brand):not(.page-link):not(.carousel-control-prev):not(.carousel-control-next){
+  color: aliceblue;
+}
+.searchButton{
+  height: 30px;
+  width: 200px;
+  margin-top: 15px;
+  padding: 0;
+}
+.sideBarCaret{
+  margin-left: 5px;
+}
+
+.aroundTheBlockFooter{
+  height: 50px;
+  width: 100%!important;
+}
+
+.globalConnectStatus{
+  margin-left: 225px;
+}
+.globalDiscoveredSpinner{
+  margin-left: 10px;
+  color: rgb(94, 255, 0);
+ 
+}
+.globalNotDiscoveredSpinner{
+  margin-left: 10px;
+  color: rgb(255, 0, 0);
+ 
+}
+body{
+  font-family: "Open Sans", sans-serif;
+}
+.blockchainStatus{
+  color: rgb(224, 227, 245);
+}
+.userNotDiscoveredChip {
+  background-color: transparent !important;
+  border-color: rgb(204, 0, 0)!important;
+  color: rgb(255, 0, 0) !important;
+  margin-bottom: 10px;
+  
+
+}
+.collectionView{
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-left: 150px!important;
+  margin-top: 125px;
+  width: 80%!important;
+}
+.undiscovered{
+  margin-top:100px;
+}
+.collectionBanner{
+  height:100%;
+  width: 100%;
+}
+.identityCard{
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: rgba(0, 0, 138, 0.4);
+  width: 40%;
+}
+.collectionStatsCard{
+  width:100%;
+  height: 500px;
+  background-color: rgba(0, 0, 138, 0.4);
+  margin-top: 30px;
+}
+.collectionQuickStatsCard{
+  background-color: rgba(0, 0, 138, 0.4);
+  height: 350px;
+  width: 100%;
+}

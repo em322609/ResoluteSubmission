@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Erik May's Submission -- Resolute</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script>
+    window.electron.ipcRenderer.once('ipc-example', (arg) => {
+      console.log(arg);
+    });
+
+    window.electron.ipcRenderer.myPing();
+  </script>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</html>
